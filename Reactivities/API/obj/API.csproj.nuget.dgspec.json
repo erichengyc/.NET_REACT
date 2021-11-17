@@ -105,8 +105,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
               },
               "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
                 "projectPath": "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj"
@@ -142,14 +142,14 @@
         }
       }
     },
-    "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\eric9\\.nuget\\packages\\",
-        "outputPath": "d:\\.NET_REACT\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\.NET_REACT\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eric9\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,8 +220,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
