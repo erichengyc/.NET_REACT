@@ -1365,11 +1365,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\eric9\\.nuget\\packages\\",
-      "outputPath": "d:\\.NET_REACT\\Reactivities\\Application\\obj\\",
+      "outputPath": "D:\\.NET_REACT\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eric9\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1379,17 +1379,18 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
+            "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
             },
-            "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj"
+            "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }
