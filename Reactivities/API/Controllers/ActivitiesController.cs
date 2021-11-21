@@ -6,7 +6,6 @@ namespace API.Controllers
 {
     public class ActivitiesController : BaseApiController
     {
-
         [HttpGet]
         public async Task<ActionResult<List<Activity>>> GetActivities()
         {
@@ -28,8 +27,8 @@ namespace API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> EditActivity(Guid id, Activity activity)
         {
-           activity.Id = id; 
-           return Ok(await Mediator.Send(new Edit.Command{Activity = activity})); 
+            activity.Id = id;
+            return Ok(await Mediator.Send(new Edit.Command{Activity = activity}));
         }
 
         [HttpDelete("{id}")]
