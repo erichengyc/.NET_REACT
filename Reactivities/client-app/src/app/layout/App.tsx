@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
-import NavBar from '../layout/NavBar';
+import NavBar from './NavBar';
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
-import {v4 as uuid} from 'uuid';
+import { v4 as uuid } from 'uuid';
 import agent from '../api/agent';
 import LoadingComponent from './LoadingComponent';
 
@@ -39,7 +39,7 @@ function App() {
     setEditMode(true);
   }
 
-  function handleFormClose(){
+  function handleFormClose() {
     setEditMode(false);
   }
 
@@ -55,7 +55,7 @@ function App() {
     } else {
       activity.id = uuid();
       agent.Activities.create(activity).then(() => {
-        setActivities([...activities, activity]);
+        setActivities([...activities, activity])
         setSelectedActivity(activity);
         setEditMode(false);
         setSubmitting(false);
@@ -69,7 +69,7 @@ function App() {
       setActivities([...activities.filter(x => x.id !== id)]);
       setSubmitting(false);
     })
-    setActivities([...activities.filter(x => x.id !== id)])
+
   }
 
   if (loading) return <LoadingComponent content='Loading app' />
@@ -77,21 +77,20 @@ function App() {
   return (
     <>
       <NavBar openForm={handleFormOpen} />
-      <Container style={{marginTop: '7em'}}> 
-        <ActivityDashboard 
-        activities={activities}
-        selectedActivity={selectedActivity}
-        selectActivity={handleSelectActivity}
-        cancelSelectActivity={handleCancelSelectActivity}
-        editMode={editMode}
-        openForm={handleFormOpen}
-        closeForm={handleFormClose}
-        createOrEdit={handleCreateOrEditActivity}
-        deleteActivity={handleDeleteActivity}
-        submitting={submitting}
+      <Container style={{ marginTop: '7em' }}>
+        <ActivityDashboard
+          activities={activities}
+          selectedActivity={selectedActivity}
+          selectActivity={handleSelectActivity}
+          cancelSelectActivity={handleCancelSelectActivity}
+          editMode={editMode}
+          openForm={handleFormOpen}
+          closeForm={handleFormClose}
+          createOrEdit={handleCreateOrEditActivity}
+          deleteActivity={handleDeleteActivity}
+          submitting={submitting}
         />
       </Container>
-
 
     </>
   );
