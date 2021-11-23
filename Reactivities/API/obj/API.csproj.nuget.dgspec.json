@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET_REACT\\Reactivities\\API\\API.csproj": {}
+    "d:\\.NET_REACT\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\.NET_REACT\\Reactivities\\API\\API.csproj": {
+    "d:\\.NET_REACT\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET_REACT\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "d:\\.NET_REACT\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\.NET_REACT\\Reactivities\\API\\API.csproj",
+        "projectPath": "d:\\.NET_REACT\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\eric9\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET_REACT\\Reactivities\\API\\obj\\",
+        "outputPath": "d:\\.NET_REACT\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eric9\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,15 +21,14 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj"
+              "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -56,6 +55,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -66,9 +69,17 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.14.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.14.1, )"
             }
           },
           "imports": [
@@ -93,14 +104,14 @@
         }
       }
     },
-    "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj": {
+    "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "d:\\.NET_REACT\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\eric9\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET_REACT\\Reactivities\\Application\\obj\\",
+        "outputPath": "d:\\.NET_REACT\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eric9\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,8 +131,8 @@
               "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj"
               },
-              "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj"
+              "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -228,14 +239,14 @@
         }
       }
     },
-    "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
+    "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "d:\\.NET_REACT\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\eric9\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET_REACT\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "d:\\.NET_REACT\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eric9\\AppData\\Roaming\\NuGet\\NuGet.Config",
