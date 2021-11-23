@@ -64,3 +64,4 @@ D:\.NET_REACT\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.
 D:\.NET_REACT\Reactivities\API\bin\Debug\net6.0\FluentValidation.dll
 D:\.NET_REACT\Reactivities\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\.NET_REACT\Reactivities\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\.NET_REACT\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
