@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {}
+    "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
+    "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "d:\\.NET_REACT\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\eric9\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET_REACT\\Reactivities\\Domain\\obj\\",
+        "outputPath": "d:\\.NET_REACT\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eric9\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
